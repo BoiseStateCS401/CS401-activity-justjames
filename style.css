@@ -1,23 +1,30 @@
 body{
-	background-color: green
+	background-color: WhiteSmoke
 }
 
-h1, h2{
-	font-family: "Georgia";
-	font-size: 20px;
-	text-align: center;
+h1{
+	color: #7c795d;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 45px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: #7c795d;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 28px;
 }
 em{
-	color:purple;
+	color:red;
 }
 
 p, li{
-	color: red;
+	color: #4c4a37;
 }
 
 p {
-	font-family: "verdana";
-	text-emphasis-color: black;
+	font-family: "Source Sans Pro", sans-serif;
 }
 
 ul {
@@ -48,11 +55,8 @@ ul > li > ul > li{
 }
 
 code{
-			border-spacing: 10px;
-		boder-collapse: separate;
-		border-style: double;
+	border-spacing: 10px;
+	border-collapse: separate;
 	background-color: white;
+	white-space: pre;
 }
-
-
-	
