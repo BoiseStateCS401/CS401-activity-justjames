@@ -1,0 +1,58 @@
+body{
+	background-color: green
+}
+
+h1, h2{
+	font-family: "Georgia";
+	font-size: 20px;
+	text-align: center;
+}
+em{
+	color:purple;
+}
+
+p, li{
+	color: red;
+}
+
+p {
+	font-family: "verdana";
+	text-emphasis-color: black;
+}
+
+ul {
+	list-style: none;
+	line-height: 20px;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+img:hover {
+		opacity: 0.5;
+		filter: alpha(opacity=50);
+}
+img {
+	border-radius: 25px;
+}
+
+table{
+		border-spacing: 10px;
+		boder-collapse: separate;
+}
+
+ul > li > ul > li{
+		color: blue;
+		list-style-type: none;
+}
+
+code{
+			border-spacing: 10px;
+		boder-collapse: separate;
+		border-style: double;
+	background-color: white;
+}
+
+
+	
