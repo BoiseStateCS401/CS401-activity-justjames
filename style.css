@@ -1,3 +1,7 @@
+//for some reason the w3c isn't seeing 
+//the character encoding below.
+@charset "utf-8";
+
 body{
 	background-color: WhiteSmoke
 }
@@ -21,6 +25,7 @@ em{
 
 p, li{
 	color: #4c4a37;
+	width: 500px;
 }
 
 p {
@@ -44,9 +49,14 @@ img {
 	border-radius: 25px;
 }
 
-table{
-		border-spacing: 10px;
-		boder-collapse: separate;
+table, th, td{
+	text-align: center;
+	border: 1px solid black;
+}
+
+th{
+	background-color: orange;
+	color: white;
 }
 
 ul > li > ul > li{
@@ -54,9 +64,9 @@ ul > li > ul > li{
 		list-style-type: none;
 }
 
-code{
-	border-spacing: 10px;
-	border-collapse: separate;
-	background-color: white;
-	white-space: pre;
+ pre code{
+	background-color: lightgrey;
+	border: 1px solid black;
+	display: block;
+	padding: 100 px;
 }
