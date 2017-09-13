@@ -30,6 +30,7 @@ p, li{
 
 p {
 	font-family: "Source Sans Pro", sans-serif;
+	text-align: justify;
 }
 
 ul {
@@ -64,10 +65,26 @@ ul > li > ul > li{
 		list-style-type: none;
 }
 
- pre code{
+ pre, code{
 	background-color: lightgrey;
 	border: 1px solid black;
 	display: block;
-	padding: 100 px;
+	padding: 10 px;
 }
 
+li{
+	display: inline;
+}
+
+section {
+	float: left;
+	width: 600px;
+
+aside{
+	float: right;
+	width: 20%;
+}
+
+footer{
+	clear: both;
+}
