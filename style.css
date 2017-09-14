@@ -78,13 +78,14 @@ li{
 
 section {
 	float: left;
-	width: 600px;
-
+	width: 40%;
+}
 aside{
-	float: right;
-	width: 20%;
+	float: left;
+	width: 60%;
 }
 
-footer{
+footer > p{
 	clear: both;
+	text-align: right;
 }
