@@ -83,6 +83,9 @@ section {
 aside{
 	float: left;
 	width: 60%;
+	/*position: absolute;
+	top: 20%;
+	right: 12px%*/
 }
 
 footer > p{
